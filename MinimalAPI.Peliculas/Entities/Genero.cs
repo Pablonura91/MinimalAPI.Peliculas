@@ -1,0 +1,10 @@
+﻿using Microsoft.AspNetCore.SignalR.Protocol;
+
+namespace MinimalAPI.Peliculas.Entities
+{
+    public class Genero
+    {
+        public int Id { get; set; }
+        public string Nombre { get; set; } = string.Empty;
+    }
+}
